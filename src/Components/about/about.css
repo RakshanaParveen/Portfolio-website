@@ -29,8 +29,8 @@
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-   
+    gap: 1.5rem;
+
 }
 
 .about__card{
@@ -40,10 +40,12 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+
     
 }
 .about__card:nth-child(3) {
     grid-column: span 2; /* Makes it span across two grid columns */
+
 }
 
 .about__card:hover {
@@ -70,6 +72,7 @@
 .about__content p {
     font-size: 0.9rem;
     margin: 2rem 0 2rem;
+
     color: var(--color-light);
 
 }
