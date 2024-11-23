@@ -1,0 +1,10 @@
+1. box-sizing:border box => to specify the padding and border for the elements heigth and width
+2. :root => the variables inside root can be anywhere on th program
+3. to declare variable in css root => --varname: ; , easy customization
+4. --container-width: => the width i sgoing to be changed for different devices
+5. object-fit:cover => the image should be resized to fit its container
+
+6.position: absolute;
+    left: 0;
+position: relative;
+height: 100vh;
